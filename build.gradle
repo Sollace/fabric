@@ -106,10 +106,6 @@ allprojects {
 		from sourceSets.main.allSource
 	}
 
-	checkstyle {
-		configFile = rootProject.file("checkstyle.xml")
-		toolVersion = '8.25'
-	}
 }
 
 javadoc {
